@@ -13,39 +13,59 @@
       color: darkgreen;
     }
     .saw{
-      color: lightgreen;
+      color: darkolivegreen;
     }
     a{
       color:black;
       text-decoration:none;
     }
     h1{
-      font-size: 53px;
+      font-size: 63px;
       text-align: center;
+      border-bottom: 1px solid lightgrey;
+      margin: 0;
+      padding: 60px;
     }
     h2{
       color: forestgreen;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+    #grid ol{
+      border-right: 1px solid white;
+      margin: 0;
+      padding: 40px;
+      background-color: rgba(137,175,120,.3)
+    }
+    #grid #article{
+      padding-left: 40px;
     }
     </style>
 </head>
 <boby>
   <h1><a href="index.html" class="title">실내 식물</a></h1>
-  <ol>
-    <li><a href="1.html" class="saw" id="active">테이블야자</a></li>
-    <li><a href="2.html" class="saw">스파티필름</a></li>
-    <li><a href="3.html" class="saw">몬스테라</a></li>
-  </ol>
-  <h2>테이블야자</h2>
-  <p><h3>요약</h3>
-  <a href="https://nongsaro.go.kr/portal/ps/psz/psza/contentSub.ps;jsessionid=n2ABs4QHMpOTCV5ngIRuMD1Hwo8HnEZS1cWaKRRvj5RKi5Os0opxxiYcYpxIla0b.nongsaro-web_servlet_engine1?menuId=PS00376&cntntsNo=13002&totalSearchYn=Y" target="_blank" title="농사로">테이블야자</a> 멕시코, 과테말라가 원산지인 종려목 종려과의 식물이다.</p>
-  <img src="table palm.jpg" width="55%">
-  <p><h3>내용</h3>
-  아열대지방에 주로 서식한다. 책상 위에 올려놓고 키운다 하여 탁상야자, 테이블야자라고 불린다.
-  <br><br>
-  작은 화분에 심어 키울 경우 20~30cm 정도이나 야생에서는 크기는 1~2m 까지도 자란다. 짧은 줄기가 가지 없이 단단하며 곧게 자란다. 줄기는 지름 1~2cm 정도로 짧은 줄기가 가지없이 단단하며 곧게 자라며 잎자루가 떨어져나간 부분은 매듭이 생긴다. 잎은 깃꼴로 엇갈리게 나며 전체길이는 약 40cm, 잎의 길이는 약 15cm 가량 된다. 실내에서 기를 경우 잎의 길이 역시 작아진다. 잎은 광택이 있는 밝은 녹색을 띠며 끝은 뾰족하고 중앙부는 약간 볼록하다. 잎자루가 있으며 잎의 표면에는 세로로 된 물결무늬를 가지고 있다. 꽃은 단성화로 암수딴그루이며 조건만 갖추면 1년 내내 볼 수 있다. 암꽃은 잎집에서 꽃줄기가 나와 육수꽃차례를 이뤄 노란색으로 알모양으로 꽃자루 없이 꽃줄기에 어긋난다. 연노란색의 수꽃은 방추형으로 길이는 3~4mm 지름은 2mm 정도 이다. 열매는 흑색 혹은 황색을 띠며 둥글다.
-  <br><br>
-  실내의 조명만으로도 잘 자라 실내에서 기르기에 적당하다. 반양지나 반음지에서 잘 자라며 강한 직사광선은 피해야한다. 강한 햇빛을 쐬었을 경우 잎의 가장자리가 마르는것을 볼 수 있다. 생육에 적합한 온도는 18~24℃ 이며 겨울에는 10℃ 이상을 유지해 주어야 월동할 수 있다.
-  <br><br>
-  생육이 느린편이며 재배가 쉽고 병충해에 강하고 환경적응이 빠르다. 공기중에 수분을 방출하는 능력이 뛰어나고 벤젠, 폼알데히드등의 화학물질을 제거하는데 좋아 공기정화식물로도 적절하다. 멕시코, 과테말라, 베네수엘라, 브라질 등 중남미 지역 전역에 분포한다.</p>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" class="saw" id="active">테이블야자</a></li>
+      <li><a href="2.html" class="saw">스파티필름</a></li>
+      <li><a href="3.html" class="saw">몬스테라</a></li>
+    </ol>
+    <div id="article">
+      <h2>테이블야자</h2>
+      <p><h3>요약</h3>
+        <a href="https://nongsaro.go.kr/portal/ps/psz/psza/contentSub.ps;jsessionid=n2ABs4QHMpOTCV5ngIRuMD1Hwo8HnEZS1cWaKRRvj5RKi5Os0opxxiYcYpxIla0b.nongsaro-web_servlet_engine1?menuId=PS00376&cntntsNo=13002&totalSearchYn=Y" target="_blank" title="농사로">테이블야자</a> 멕시코, 과테말라가 원산지인 종려목 종려과의 식물이다.</p>
+        <img src="table palm.jpg" width="55%">
+      <p><h3>내용</h3>
+        아열대지방에 주로 서식한다. 책상 위에 올려놓고 키운다 하여 탁상야자, 테이블야자라고 불린다.
+        <br><br>
+        작은 화분에 심어 키울 경우 20~30cm 정도이나 야생에서는 크기는 1~2m 까지도 자란다. 짧은 줄기가 가지 없이 단단하며 곧게 자란다. 줄기는 지름 1~2cm 정도로 짧은 줄기가 가지없이 단단하며 곧게 자라며 잎자루가 떨어져나간 부분은 매듭이 생긴다. 잎은 깃꼴로 엇갈리게 나며 전체길이는 약 40cm, 잎의 길이는 약 15cm 가량 된다. 실내에서 기를 경우 잎의 길이 역시 작아진다. 잎은 광택이 있는 밝은 녹색을 띠며 끝은 뾰족하고 중앙부는 약간 볼록하다. 잎자루가 있으며 잎의 표면에는 세로로 된 물결무늬를 가지고 있다. 꽃은 단성화로 암수딴그루이며 조건만 갖추면 1년 내내 볼 수 있다. 암꽃은 잎집에서 꽃줄기가 나와 육수꽃차례를 이뤄 노란색으로 알모양으로 꽃자루 없이 꽃줄기에 어긋난다. 연노란색의 수꽃은 방추형으로 길이는 3~4mm 지름은 2mm 정도 이다. 열매는 흑색 혹은 황색을 띠며 둥글다.
+        <br><br>
+        실내의 조명만으로도 잘 자라 실내에서 기르기에 적당하다. 반양지나 반음지에서 잘 자라며 강한 직사광선은 피해야한다. 강한 햇빛을 쐬었을 경우 잎의 가장자리가 마르는것을 볼 수 있다. 생육에 적합한 온도는 18~24℃ 이며 겨울에는 10℃ 이상을 유지해 주어야 월동할 수 있다.
+        <br><br>
+        생육이 느린편이며 재배가 쉽고 병충해에 강하고 환경적응이 빠르다. 공기중에 수분을 방출하는 능력이 뛰어나고 벤젠, 폼알데히드등의 화학물질을 제거하는데 좋아 공기정화식물로도 적절하다. 멕시코, 과테말라, 베네수엘라, 브라질 등 중남미 지역 전역에 분포한다.</p>
+    </div>
+  </div>
 </body>
 </html>

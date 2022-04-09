@@ -13,35 +13,55 @@
       color: darkgreen;
     }
     .saw{
-      color: lightgreen;
+      color: darkolivegreen;
     }
     a{
       color:black;
       text-decoration:none;
     }
     h1{
-      font-size: 53px;
+      font-size: 63px;
       text-align: center;
+      border-bottom: 1px solid lightgrey;
+      margin: 0;
+      padding: 60px;
     }
     h2{
       color: forestgreen;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+    #grid ol{
+      border-right: 1px solid white;
+      margin: 0;
+      padding: 40px;
+      background-color: rgba(137,175,120,.3);
+    }
+    #grid #article{
+      padding-left: 40px;
     }
   </style>
 </head>
 <boby>
   <h1><a href="index.html" class="title">실내 식물</a></h1>
-  <ol>
-    <li><a href="1.html"class="saw">테이블야자</a></li>
-    <li><a href="2.html"class="saw">스파티필름</a></li>
-    <li><a href="3.html"class="saw" id="active">몬스테라</a></li>
-  </ol>
-  <h2>몬스테라</h2>
-  <p><h3>요약</h3>
-  <a href="https://nongsaro.go.kr/portal/ps/psz/psza/contentSub.ps?menuId=PS00376&cntntsNo=16449&totalSearchYn=Y" target="_blank" title="농사로">몬스테라</a>는 외떡잎식물이고, 천남성목 천남성과의 상록 덩굴식물이다.</p>
-  <img src="monstera.jpg" width="55%">
-  <p><h3>내용</h3>
-  봉래초(蓬萊蕉)라고도 한다. 습기가 많은 곳에서 잘 자란다. 멕시코산이며 온실에서 재배한다. 몬스테라속(屬)에는 30종 내외가 있으나 이 종이 가장 널리 알려져 있다. 잎은 어긋나고 성숙한 것은 둥글며 지름 1m 정도이다. 잎의 길이는 2~15m이며 길게는 20m까지 자란다. 잎의 모양은 다소 깃처럼 갈라지고, 군데군데 구멍이 파여 있어 폭우와 강한 바람에 견딜 수 있는 구조로 발달하였으며, 밑에 달린 잎에 광선이 통할 수 있도록 되어 있다. 원줄기는 굵고 초록색이며 마디에서 기근(氣根)이 내리고 다른 물체에 붙어 올라간다.
-  <br><br>
-  육수꽃차례[肉穗花序]는 황백색 포로 싸이고 길이 25cm 내외이며, 번식은 포기나누기 또는 꺾꽂이에 의한다. 성숙한 것은 옥수수의 이삭같이 생겼고 바나나와 같은 향기가 있어서 생으로 먹는다. 소형종으로 프리드리히스탈리가 있는데 잎이 파여 있지 않으나 많은 구멍이 뚫려 있다.</p>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html"class="saw">테이블야자</a></li>
+      <li><a href="2.html"class="saw">스파티필름</a></li>
+      <li><a href="3.html"class="saw" id="active">몬스테라</a></li>
+    </ol>
+    <div id="article">
+      <h2>몬스테라</h2>
+      <p><h3>요약</h3>
+        <a href="https://nongsaro.go.kr/portal/ps/psz/psza/contentSub.ps?menuId=PS00376&cntntsNo=16449&totalSearchYn=Y" target="_blank" title="농사로">몬스테라</a>는 외떡잎식물이고, 천남성목 천남성과의 상록 덩굴식물이다.</p>
+        <img src="monstera.jpg" width="55%">
+      <p><h3>내용</h3>
+        봉래초(蓬萊蕉)라고도 한다. 습기가 많은 곳에서 잘 자란다. 멕시코산이며 온실에서 재배한다. 몬스테라속(屬)에는 30종 내외가 있으나 이 종이 가장 널리 알려져 있다. 잎은 어긋나고 성숙한 것은 둥글며 지름 1m 정도이다. 잎의 길이는 2~15m이며 길게는 20m까지 자란다. 잎의 모양은 다소 깃처럼 갈라지고, 군데군데 구멍이 파여 있어 폭우와 강한 바람에 견딜 수 있는 구조로 발달하였으며, 밑에 달린 잎에 광선이 통할 수 있도록 되어 있다. 원줄기는 굵고 초록색이며 마디에서 기근(氣根)이 내리고 다른 물체에 붙어 올라간다.
+        <br><br>
+        육수꽃차례[肉穗花序]는 황백색 포로 싸이고 길이 25cm 내외이며, 번식은 포기나누기 또는 꺾꽂이에 의한다. 성숙한 것은 옥수수의 이삭같이 생겼고 바나나와 같은 향기가 있어서 생으로 먹는다. 소형종으로 프리드리히스탈리가 있는데 잎이 파여 있지 않으나 많은 구멍이 뚫려 있다.</p>
+      </div>
+    </div>
 </body>
 </html>
