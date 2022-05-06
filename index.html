@@ -58,14 +58,17 @@
     <h1><a href="index.html" class="title">실내 식물</a></h1>
     <input id="light-dark" type="button" value="😎" onclick="
       const wallpaper = document.querySelector('body');
+      const link = document.querySelector('a');
       if(this.value === '😎') {
         wallpaper.style.backgroundColor= 'black';
         wallpaper.style.color='neongreen';
         this.value = '😀'
+        a.style.color='aquamarine';
       } else {
         wallpaper.style.backgroundColor= 'white';
         wallpaper.style.color='black';
         this.value = '😎'
+        
       }
     "
     >
